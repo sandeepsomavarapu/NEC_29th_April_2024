@@ -1,0 +1,132 @@
+
+
+JAVA:
+======
+PROGRAMMING LANGUAGE :1996 JAMES GOSLING-->SUN MICRO SYSTEM-->ORACLE CORPORATION
+			JDK 1.0
+			JDK 22
+
+		OOP
+		
+		Welcome.java
+
+	variables/methods/objects/class/interfaces.....
+	
+		datatype varname=value
+		byte 
+		short
+		int
+		long
+		
+		float	123.4353434
+		double	23.4298326478
+		
+		char		'M'
+		boolean true,false
+		
+		
+		byte age=31;
+		
+		
+		OOPS--->inheritance,polymorphisam,encapsulation,abstraction
+				extends,implements
+				
+				class A{
+					m1()
+				
+				}
+				class B extends A{
+					m1()
+				}
+		this,super
+
+exception handling
+multi threading
+collections		
+				
+			mysql
+
+
+			
+Spring Framework:  2003
+=================6.x
+	Eclipse-->IDE
+	netbeans,intellji,myeclipse,vscode....
+
+
+spring is non-invasive framework which is used to create light weight and loosley coupled applications
+
+
+		non-invasive
+
+		light weight
+		
+		loosley coupled
+
+
+	invasive 		these frameworks will force to the developer to implement predefined API 
+	non-invasive 	these frameworks will never force to the developer to implement predefined API
+
+			spring,hibernate
+
+	Servlets,struts,jsf,EJB...
+
+	ROD JOHNSON--->2003 -->interface21-->spring 
+	
+	
+1)implements Servlet		
+2)extends GernericServlet
+3)extends HttpServlet(12)	class Login extends HttpServlet
+
+	heavy weight 
+
+struts
+
+	class Test{
+		Test(String name)
+		{
+		
+		}
+		m1()
+		{
+		
+		}
+	}
+	//tightly coupled
+	class Client
+	{
+	
+	main()
+	{
+	Test test=container 
+		test.m1()
+	
+	}
+	
+	}
+loosley coupled 	
+	spring container --->object life cycle 
+		
+				creation of object
+				wiring
+				configuring 
+				destroying
+			
+		Beanfactory,ApplicationContext==>org.springframework
+		
+		spring framework-jars 1.x	....6.x
+		
+		
+		IOC-->inversion of controller/dependency injection module
+		
+		
+		spring core module
+		
+		A     
+				Container --->configuration file-->xml config,annotation config,java config
+				
+		B
+		
+		
+		
+		
