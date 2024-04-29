@@ -124,9 +124,11 @@ loosley coupled
 		
 		A     
 				Container --->configuration file-->xml config,annotation config,java config
-				
+								<beans><bean><property><constructor-arg>
 		B
 		
-		
+				-->setter injection
+				-->constructor injection
+				
 		
 		
