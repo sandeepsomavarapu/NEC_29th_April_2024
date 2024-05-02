@@ -69,7 +69,7 @@ spring is non-invasive framework which is used to create light weight and loosle
 
 			spring,hibernate
 
-	Servlets,struts,jsf,EJB...
+	Servlets,struts,jsf,EJB...ROD Johnson -->spring framework-->2003
 
 	ROD JOHNSON--->2003 -->interface21-->spring 
 	
@@ -124,11 +124,188 @@ loosley coupled
 		
 		A     
 				Container --->configuration file-->xml config,annotation config,java config
-								<beans><bean><property><constructor-arg>
+								<beans><bean><property><constructor-arg>,id,ref,class,autowire
 		B
 		
 				-->setter injection
 				-->constructor injection
+				-->autowiring -->byname,bytype,constructor
 				
+		
+		@Component,@ComponentScan,@Configuration,@Autowired,@Scope,@Qualifier
+		@Service
+		@Repository
+		@Bean
+		
+		NOTE:spring has given annotations for user defined classes but not for predefined classes
+		maven   -->pom.xml -->dependencies 
+		server	-->tomcat,weblogic.....
+		confgiuration
+		
+	Spring boot features 
+		1)Auto configuration most of the commonly used classes already configured by the spring boot
+		2)starters				-->jars
+		3)Embeded server 		tomcat
+		4)actuators 			insite health,beans,env
+		h2
+		
+		mysql,-->JPA-->HIbernate
+		
+		spring boot 
+		
+				REST api
+				
+		Webservices:
+				SOAP	-->XML
+				REST	-->XML,JSON,PT,JS,HTML
+				
+				JSON
+					
+					
+			starter-->		
+				
+				
+		JPA-->HIbernate
+
+		REST API
+				
+		
+	ProductManagementApp
+
+		1)Add Product
+		2)Update Product
+		3)Delete Product
+		4)Get Product by id
+		5)Get All products
+		6)Get ALl products by Category
+		7)Get ALl products between prices
+		
+		
+		JPA-->specification			persist,merge,remove,find,createQuery
+		ORM tools -->implementation -->hibernate,eclipselink,toplink,ibatis.....
+		
+		Object Relational Mapping 
+		
+		
+			username	
+			password
+			url				jdbc:mysql:localhost:3306/nec
+			driverclass		Driver
+		
+			hibernate
+			
+			dialect class
+			show_sql
+			hbm2ddl.auto
+			
+			
+			spring boot rest 
+			
+				webservices
+					
+						interoperable apps
+			
+			SP,RMI,EJB -->java
+			rpc			-->c/c++
+			DCOM	-->.net
+			
+			corba  -->
+		
+		Webservices-->
+			SOAP  -->XML
+			
+			REST  -->xml,json,pt,js,html
+		
+			
+			CrudRepository	-->CRUD
+			JpaRepository	-->crud+extra		spring 
+			
+			
+			DSL
+			
+			exception handling in spring rest 
+			
+					controller
+			
+				1)controller level 
+				2)application level 
+			
+			
+			secure 
+			
+			spring security
+			
+			
+				authentication
+				authorization				
+			
+Microservices:=
+==================			
+			Monolithic Architecture
+			
+
+			
+		Monolithic Architecture:
+		
+			1)InFlexible
+				we cannot built using different technologies
+			2)unreliable
+				if one feature/module/functionality doesnot work ,entire application doesnot work
+			3)unsclable 
+
+			4)slow development
+				
+		
+		
+		
+	devide/decompose/split the large project into smaller services and later communicate them
+			
+			self contained
+			single business capability
+			
+			
+		independent development
+		independent deployment
+		Fault Isolation
+		flexible
+		
+		
+		seperate datasource for each microservice
+		keep the code at similar level of maturity
+		sepearatee build for each microservice
+		deploy containers
+		treat servers as stateless
+		
+		
+		
+		microservice1          microservice2
+		
+		communication
+				synchronous  -->RestTemplate,WebClient,Open Feign
+				asynhronous  -->kafka,rabbitmq,activemq
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		
+		
 		
 		
